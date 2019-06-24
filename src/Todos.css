@@ -1,0 +1,42 @@
+.trash {
+  background: red;
+  color: white;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  width: 0;
+  transition: 0.2s linear;
+}
+
+li:hover span.trash{
+  width: 40px;
+}
+
+div.todos.collection li.collection-item{
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  color: #232426;
+}
+
+.todos.collection .collection-item{
+  background: white;
+  padding: 0px;
+}
+
+.todos.collection .collection-item:nth-of-type(2n){
+  background: #f7f7f7;
+}
+
+div.todos.collection{
+  margin: 0;
+}
+
+.message {
+  background: white;
+  margin: 0px;
+  height: 40px;
+  line-height: 40px;
+  color: #7D82B8;
+}

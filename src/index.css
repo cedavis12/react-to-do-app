@@ -1,0 +1,30 @@
+body{
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1.center{
+    background: #7D82B8;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.app.container{
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+input[type=text].todo{
+    padding-left: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #7D82B8;
+    background: #f7f7f7;
+    margin: 0px;
+}
